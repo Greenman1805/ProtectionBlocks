@@ -1,0 +1,13 @@
+name: ProtectionBlocks
+version: 1.0
+author: Greenman1805
+main: de.greenman1805.protectionblocks.Main
+depend: [WorldGuard]
+api-version: 1.13
+commands:
+  p:
+    description: Protection Befehle
+    aliases: [plot, gs]    
+permissions:
+  protectionblocks.admin:
+    default: op
